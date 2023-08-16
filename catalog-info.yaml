@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: <NAME OF THE SERVICE> # e.g. my-service
+  description: <DESCRIPTION OF THE SERVICE> # e.g. A service that provides X functionality.
+  annotations:
+    github.com/project-slug: <ORG/REPO> # e.g. my-org/my-repo
+spec:
+  type: service # Change this if it's a website, library, etc.
+  lifecycle: <LIFECYCLE> # e.g. production, experimental, deprecated
+  owner: <TEAM Owning the service> # e.g. team-a
+
+# Fill in the above placeholders with appropriate values for your service.
